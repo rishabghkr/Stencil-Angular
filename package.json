@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "deploy": "npm --prefix ./angular-workspace/ run build && gh-pages -d ./angular-workspace/dist"
+    "build:angular": "npm --prefix ./angular-workspace/ run build",
+    "build:stencil": "npm --prefix ./stencil-library/ run build",
+    "deploy": "npm run build:angular && gh-pages -d ./angular-workspace/dist",
+    "start:angular": "npm --prefix ./angular-workspace/ run start",
+    "start:stencil": "npm --prefix ./stencil-library/ run start"
   },
   "repository": {
     "type": "git",
