@@ -13,7 +13,7 @@ defineCustomElements(window)
 
 @NgModule({
   declarations: [NavbarComponent, LinkComponent, NavbarItem, SidebarButton, SidebarComponent, SidebarIcon],
-  exports: [NavbarComponent, SidebarComponent, SidebarButton],
+  exports: [NavbarComponent, SidebarComponent],
 })
 export class StencilComponentsModule {
 }

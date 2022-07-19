@@ -1,0 +1,22 @@
+{
+  "name": "stencil-angular",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "deploy": "npm --prefix ./angular-workspace/ run build && gh-pages -d ./angular-workspace/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabghkr/Stencil-Angular.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabghkr/Stencil-Angular/issues"
+  },
+  "homepage": "https://github.com/rishabghkr/Stencil-Angular#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
