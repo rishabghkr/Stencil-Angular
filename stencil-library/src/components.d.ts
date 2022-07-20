@@ -25,6 +25,7 @@ export namespace Components {
     }
     interface SidebarComponent {
         "items": { name: string, goto: string }[];
+        "styles": { [key: string]: string };
     }
     interface SidebarIcon {
         "iconSize": string;
@@ -101,6 +102,7 @@ declare namespace LocalJSX {
     }
     interface SidebarComponent {
         "items"?: { name: string, goto: string }[];
+        "styles"?: { [key: string]: string };
     }
     interface SidebarIcon {
         "iconSize"?: string;

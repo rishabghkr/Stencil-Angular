@@ -15,15 +15,22 @@ export class AppComponent {
     {goto: "/south-america", name: "South America"},
   ];
   navbarStyles = {
-    background: "#00c1ff",
+    background: "#60caed",
     padding: 0,
     margin: 0,
     "font-family": "monospace",
-    "z-index": 9999
+    "font-size": "16px",
+
   }
   sidebarItems = [
     {goto: "/", name: "Places"},
     {goto: "/tools", name: "Tools"},
     {goto: "/heroes", name: "Heroes"}
   ]
+  sidebarStyles = {
+    background: "#048ab2",
+    color: "cornslik",
+    "font-family": "monospace",
+    "font-size": "16px",
+  }
 }

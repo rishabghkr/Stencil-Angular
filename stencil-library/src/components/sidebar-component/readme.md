@@ -10,6 +10,7 @@
 | Property | Attribute | Description | Type                                | Default     |
 | -------- | --------- | ----------- | ----------------------------------- | ----------- |
 | `items`  | --        |             | `{ name: string; goto: string; }[]` | `undefined` |
+| `styles` | --        |             | `{ [key: string]: string; }`        | `undefined` |
 
 
 ## Dependencies

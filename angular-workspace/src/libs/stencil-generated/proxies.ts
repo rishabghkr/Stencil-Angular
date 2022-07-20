@@ -103,13 +103,13 @@ export declare interface SidebarComponent extends Components.SidebarComponent {}
 
 @ProxyCmp({
   defineCustomElementFn: undefined,
-  inputs: ['items']
+  inputs: ['items', 'styles']
 })
 @Component({
   selector: 'sidebar-component',
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: '<ng-content></ng-content>',
-  inputs: ['items']
+  inputs: ['items', 'styles']
 })
 export class SidebarComponent {
   protected el: HTMLElement;
