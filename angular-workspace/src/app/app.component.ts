@@ -1,5 +1,4 @@
 import {Component} from '@angular/core';
-import "stencil-library/dist/components/navbar-component";
 
 @Component({
   selector: 'app-root',

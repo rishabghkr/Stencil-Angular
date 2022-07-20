@@ -1,8 +1,9 @@
+
 <navbar-component [home]="title" [items]="navbarItems" [styles]="navbarStyles"></navbar-component>
-<div>
-  <sidebar-component [items]="sidebarItems"></sidebar-component>
+<main>
+  <sidebar-component class="sidebar" [items]="sidebarItems"></sidebar-component>
   <div>rest.</div>
-</div>
+</main>
 
 
 <router-outlet></router-outlet>
