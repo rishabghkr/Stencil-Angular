@@ -9,7 +9,10 @@ import "../sidebar-icon/sidebar-icon"
 export class SidebarButton {
   @Prop() iconSize = "1";
   @State() isOpen = false;
-  @Event() isOpenEvent: EventEmitter<boolean>
+  @Event({
+    bubbles: true,
+    composed:true
+  }) isOpenEvent: EventEmitter<boolean>
 
   handleOnClick() {
     this.isOpen = !this.isOpen

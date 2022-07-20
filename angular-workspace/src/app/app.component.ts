@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, HostListener} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -32,5 +32,10 @@ export class AppComponent {
     color: "cornslik",
     "font-family": "monospace",
     "font-size": "16px",
+  }
+
+  @HostListener('isOpenEvent')
+  handleSidebarSwitch(event: boolean) {
+    console.log("sidebar event is", event)
   }
 }
